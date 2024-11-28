@@ -23,17 +23,13 @@ The dataset used comes from Kaggle and can be found [here](https://www.kaggle.co
 ## Methodology
 1. **Data Collection**: Downloaded the dataset from ...
 2. **Pre-processing Data**:
-   - Checked the missing values in the `Age` and `Embarked` columns with the median and mode values.
-   - Converted categorical variables to numeric using Label Encoding.
-   - Performed binning on the `Age` and  `Fare` columns.
+   - Checked the missing values.
 3. **Splitting Data**: Split the dataset into training data and testing data.
 4. **Modelling**: Using classification algorithms such as:
-     - Random Forest
-     - Logistic Regression
-     - K-Nearest Neighbors (KNN)
-     - Naive Bayes
      - Decision Tree
+     - Random Forest
+     - KNN
 5. **Evaluation**: Calculating the accuracy of the model
 
 ## Result
-Random Forest is the best model with an accuracy value of 84%.
+Random Forest is the best model with an accuracy value of 100%.
