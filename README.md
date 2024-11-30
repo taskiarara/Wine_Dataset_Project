@@ -2,7 +2,7 @@
 ## Description
 This project aims to apply several classification models on Wine dataset and find out which gives the best accuracy. This dataset contains the results of chemical analysis of wines.
 ## Titanic Dataset
-Wine dataset contains the results of chemical analysis of wines grown in certain areas of Italy. This dataset consists of 178 rows and 14 columns, where 13 variables in the first column to the 13th column are the results of chemical analysis of wine content, while the 14th column is the target variable which is the type of wine and the target of clustering. The target variable is a factor with levels 0, 1, and 2 that describes the grouping of wines based on the 13 chemical analyses. The first group (0) has 59 wines, the second group (1) has 71 wines, and the third group (2) has 48 wines.
+Wine dataset contains the results of chemical analysis of wines grown in certain areas of Italy. This dataset consists of 178 rows and 14 columns, where 13 variables in the first column to the 13th column are the results of chemical analysis of wine content, while the 14th column is the target variable which is the type of wine and the target of clustering. The target variable is a factor with levels 0, 1, and 2 that describes the grouping of wines based on the 13 chemical analyses. The first group (class_0) has 59 wines, the second group (class_1) has 71 wines, and the third group (class_2) has 48 wines.
 ## Dataset
 The dataset used comes from Kaggle and can be found [here]([https://www.kaggle.com/c/titanic/data](https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data)). 
 ### Key Features
@@ -23,7 +23,7 @@ The dataset used comes from Kaggle and can be found [here]([https://www.kaggle.c
 ## Methodology
 1. **Data Collection**: Downloaded the dataset from [scikit-learn](https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data)
 2. **Pre-processing Data**:
-   - Data cleaning.
+   - Data Cleaning
    - Scaling
 3. **Splitting Data**
 4. **Modelling**
