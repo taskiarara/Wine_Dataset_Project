@@ -1,4 +1,4 @@
-# Classification of Wine Dataset
+# Classification on Wine Dataset
 ## Description
 This project aims to apply several classification models on Wine dataset and find out which gives the best accuracy. This dataset contains the results of chemical analysis of wines.
 ## Titanic Dataset
